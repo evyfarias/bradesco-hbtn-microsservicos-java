@@ -1,6 +1,16 @@
 [
     {
+        "id": 1,
+        "nome": "Ze Fulano",
+        "idade": 40,
         "email": "zezinho@email.com",
+        "telefones": [
+            {
+                "ddd": "18",
+                "id": 3,
+                "numero": "98253636"
+            }
+        ],
         "enderecos": [
             {
                 "bairro": "CENTRO",
@@ -11,34 +21,13 @@
                 "logradouro": "AVENIDA",
                 "numero": "100"
             }
-        ],
-        "id": 1,
-        "idade": 40,
-        "nome": "Ze Fulano",
-        "telefones": [
-            {
-                "ddd": "18",
-                "id": 3,
-                "numero": "98253636"
-            }
         ]
     },
     {
-        "email": "manoel@email.com",
-        "enderecos": [
-            {
-                "bairro": "JARDIM BONITO",
-                "cidade": "CIDADE DO NORTE",
-                "endereco": "LÁ LONGE",
-                "estado": "SP",
-                "id": 2,
-                "logradouro": "RUA",
-                "numero": "487"
-            }
-        ],
         "id": 2,
-        "idade": 26,
         "nome": "Manoel Antunes",
+        "idade": 26,
+        "email": "manoel@email.com",
         "telefones": [
             {
                 "ddd": "14",
@@ -49,6 +38,17 @@
                 "ddd": "14",
                 "id": 2,
                 "numero": "99668855"
+            }
+        ],
+        "enderecos": [
+            {
+                "bairro": "JARDIM BONITO",
+                "cidade": "CIDADE DO NORTE",
+                "endereco": "LÁ LONGE",
+                "estado": "SP",
+                "id": 2,
+                "logradouro": "RUA",
+                "numero": "487"
             }
         ]
     }
