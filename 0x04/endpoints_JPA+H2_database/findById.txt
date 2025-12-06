@@ -5,25 +5,25 @@
     "email": "manoel@email.com",
     "telefones": [
         {
-            "ddd": "14",
             "id": 1,
+            "ddd": "14",
             "numero": "35445585"
         },
         {
-            "ddd": "14",
             "id": 2,
+            "ddd": "14",
             "numero": "99668855"
         }
     ],
     "enderecos": [
         {
-            "bairro": "JARDIM BONITO",
-            "cidade": "CIDADE DO NORTE",
-            "endereco": "LÁ LONGE",
-            "estado": "SP",
             "id": 2,
             "logradouro": "RUA",
-            "numero": "487"
+            "endereco": "LÁ LONGE",
+            "numero": "487",
+            "bairro": "JARDIM BONITO",
+            "cidade": "CIDADE DO NORTE",
+            "estado": "SP"
         }
     ]
 }
